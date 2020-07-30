@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--Anination css   -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index/html">
+                <span class="text-danger font-weight-bold">E</span>-shop
+                <i class="fas fa-shopping-cart text-primary"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="orders.html">Orders</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="profile.html">Profile<i class="fas fa-user"></i></a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Profile
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="cart.html" >Cart
+                      <span class="badge badge-pills badge-primary">15</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login
+                        <i class="fas fa-sign-in-alt"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Signup</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="logout.html">Logout
+                        <i class="fas fa-sign-out-alt"></i>
+                    </a>
+                </li>
+              </ul>
+              <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+            </div>
+        </nav>
+        <br>
+        <br>
+    <!-- form -->
+    <div class="card container shadow shadow-sm">
+        <p class="alert simple-heading text-center animate__animated animate__bounceInDown">Signup Here</p>
+        <hr class="p-0 m-0">
+        <div class="row card-body">
+            <div class="col-md-6 order-md-first order-sm-last border-top-0 border-left-0 border-bottom-0 border">
+                <p class="d-md-none d-sm-block text-center font-size-2">Or</p>
+                <hr>
+                <div class="m-3">
+                    <p class="simple-heading ">Signup with Social Account</p>
+                    <hr class="mb-2">
+                </div>
+                <div class="mt-4 p-4">
+                    <button class="btn btn-lg btn-block shadow shadow-sm facebook text-white mb-3"><i class="fab fa-facebook-f mr-4"></i>Login with Facebook</button>
+                    <button class="btn btn-lg btn-block shadow shadow-sm google text-white mt-2"><i class="fab fa-google mr-4"></i>Login with Google</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form action="login.html" class="m-3">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="my-addon">Full Name</span>
+                        </div>
+                        <input type="text" id="firstname" name="firstname"
+                            class="form-control"  placeholder="First Name" aria-label="" aria-describedby="my-addon">
+                        <input type="text" id="lastname" name="lastname" class="form-control"  placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" class="form-control">
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                        <label for="my-input">Gender</label>
+                        <div>
+                            <div class="form-check form-check-inline">
+                                <input type="checkbox" id="my-input" class="form-check-input" value="true">
+                                <label for="my-input" class="form-check-label">Male</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="checkbox" id="my-input" class="form-check-input" value="true">
+                                <label for="my-input" class="form-check-label">Female</label>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea id="address" class="form-control"></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-info btn-block" value="Create An Account">
+                    <a href="login.html" class=" mt-2 btn btn-light btn-block">Have An Account?Click to Login</a>
+                </form>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
